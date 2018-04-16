@@ -1,5 +1,5 @@
 function [I] = Simpson(x,y)
-%Simpson_Chang is a function that will integrate experimental data using
+%Simpson is a function that will integrate experimental data using
 %Simpson's 1/3 rule with the application of the trapezoidal rule if needed.
 %   Inputs
 %x- independent experimental data set
