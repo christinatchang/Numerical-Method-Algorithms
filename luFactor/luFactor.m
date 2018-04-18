@@ -24,7 +24,7 @@ end
 %set j and i to run through all columns and rows
     for j=1:column
         for i=j:row
-%breaks code if i=row because then k will excee matrix dimensions
+%breaks code if i=row because then k will exceed matrix dimensions
             if i==row          
                 break
             end
