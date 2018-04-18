@@ -3,7 +3,7 @@ The False Position method is a closed method that can be used to determine the r
 ## How it Works
 The idea behind the False Position method is to take two points on the function and connect them with a straight line. Where the lines cross the x-axis is the guess for the root. From there, the upper and lower bounds are tested with the root to find where a sign change occurs and the two points between which the sign change occurs become the new upper and lower bounds.
 ### Equation
-x<sub>r</sub> = x<sub>u</sub>-( (f(x<sub>u</sub>) * (x<sub>l</sub>-x<sub>u</sub>)) / (f(x<sub>l</sub>) - f(x<sub>u</sub>)) )
+x<sub>r</sub> = x<sub>u</sub>-( ( f(x<sub>u</sub>) * (x<sub>l</sub>-x<sub>u</sub>) ) / ( f(x<sub>l</sub>) - f(x<sub>u</sub>) ) )
 ### Inputs
 * func- the function being evaluated
 * x<sub>l</sub>- the lower guess
